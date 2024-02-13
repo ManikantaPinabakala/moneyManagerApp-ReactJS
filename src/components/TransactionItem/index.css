@@ -1,0 +1,46 @@
+.transaction-item {
+  list-style-type: none;
+  border: 1px solid #d7dfe9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  color: #1e293b;
+}
+
+.history-amount {
+  text-align: center;
+  color: #1e293b;
+}
+
+.type {
+  text-align: center;
+  color: #1e293b;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-image {
+  height: 20px;
+  width: 20px;
+  color: #334155;
+}
+
+@media screen and (max-width: 767px) {
+  * {
+    font-size: 1.07em;
+  }
+
+  .title,
+  .history-amount,
+  .type {
+    font-size: 16px;
+  }
+}
